@@ -3,7 +3,7 @@ import telebot
 # O'zingizning ma'lumotlaringizni kiriting
 API_TOKEN = '8439338363:AAG_fpmRwdopmwel0coOPAfZJHUaHtuupss'
 ADMIN_CHANNEL_ID = 3581076799 # Kanalingiz IDsi
-bot = telebot.Telebot(API_TOKEN)
+bot = telebot.TeleBot(API_TOKEN)
 
 # Foydalanuvchi ma'lumotlarini vaqtinchalik saqlash
 users_db = {} 
