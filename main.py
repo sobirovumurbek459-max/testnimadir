@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = os.environ.get("8439338363:AAG_fpmRwdopmwel0coOPAfZJHUaHtuupss")
+TOKEN = os.environ.get("8312097068:AAEiovVoDy1trH87yI-hDjqUt67khvlSpww")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Salom! 👋 Men Render’da ishlayapman 🚀")
